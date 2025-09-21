@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 56px;
+    background-color: white;
+    border-bottom: 1px solid #3A35411F;
+}
+
+header img{
+    max-height: 100%;
+    height: auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.login-card{
+    border-radius: 5px;
+    background-color: white;
+}
+.atau {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.atau::before,
+.atau::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc; /* garis */
+}
+
+.atau::before {
+  margin-right: 10px; /* jarak garis kiri */
+}
+
+.atau::after {
+  margin-left: 10px; /* jarak garis kanan */
+}
+
