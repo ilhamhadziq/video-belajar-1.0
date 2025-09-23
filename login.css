@@ -22,15 +22,18 @@ main{
 .login-card{
     border-radius: 5px;
     background-color: white;
-    padding: 8px 12px;
+    padding: 36px;
     width: 100%;
     max-width: 590px;
+    border: 1px solid #F1F1F1;
+    margin: 20px;
 }
 form{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 } 
 .login-tittle{
   font-family: "Poppins", Arial;
@@ -62,31 +65,66 @@ form{
 }
 .email, .password{
   height: 48px;
+  border: none;
+  outline: none;
+  border: 1px solid #F1F1F1;
+  border-radius: 10px;
+  padding-left: 14px; 
+}
+.login, .register,.google{
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.login{
+  background-color: #3ECF4C;
+  color: white;
+}
+.register{
+  background-color: #E2FCD9CC;
+  color: #3ECF4C;
 }
 .forget{
   display: flex;
   align-self: flex-end;
 }
+.forget a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4A505C;
+}
 .atau {
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #666;
-  font-size: 14px;
+  width: 100%;
+  gap: 10px; /* jarak antar elemen */
+  margin-top: 10px;
+  color: #333333AD;
 }
 
-.atau::before,
-.atau::after {
-  content: "";
+.atau hr {
   flex: 1;
-  border-bottom: 1px solid #666; /* garis */
+  border: none;
+  border-top: 1px solid #F1F1F1; /* garis */
+}
+.google{
+  background-color: white;
+  border: 1px solid #F1F1F1;
+}
+.google-btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-height: 80%;
+  gap: 10px;
+}
+.google img{
+  height: 25px;
 }
 
-.atau::before {
-  margin-right: 10px; /* jarak garis kiri */
-}
-
-.atau::after {
-  margin-left: 10px; /* jarak garis kanan */
-}
 
