@@ -8,6 +8,7 @@ header{
 }
 
 header img{
+    margin-left: 4%;
     max-height: 100%;
     height: auto;
 }
@@ -16,10 +17,55 @@ main{
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+    background-color: #FFFDF3;
 }
 .login-card{
     border-radius: 5px;
     background-color: white;
+    padding: 8px 12px;
+    width: 100%;
+    max-width: 590px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.login-tittle{
+  font-family: "Poppins", Arial;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 32px;
+  text-align: center;
+}
+.login-tagline{
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #333333AD;
+}
+.login-email p, .login-password p{
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #333333AD;
+}
+.required{
+  color: red;
+}
+.login-email, .login-password,.email, .password, .login, .register, .google{
+  width: 100%;
+}
+.email, .password{
+  height: 48px;
+}
+.forget{
+  display: flex;
+  align-self: flex-end;
 }
 .atau {
   display: flex;
@@ -33,7 +79,7 @@ main{
 .atau::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #ccc; /* garis */
+  border-bottom: 1px solid #666; /* garis */
 }
 
 .atau::before {
