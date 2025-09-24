@@ -63,6 +63,15 @@ form{
 .login-email, .login-password,.email, .password, .login, .register, .google{
   width: 100%;
 }
+.login-password{
+  position: relative;
+}
+.eye{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
 .email, .password{
   height: 48px;
   border: none;
