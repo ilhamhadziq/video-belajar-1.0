@@ -22,12 +22,35 @@
             <h3 class="login-tittle">Masuk ke Akun</h3>
             <p class="login-tagline">Yuk, lanjutin belajarmu di videobelajar</p>
             <form>
+                <div class="login-name">
+                <p>Nama Lengkap <span class="required">*</span></p>
+                <input type="text" required class="email">
+                </div>
                 <div class="login-email">
-                <p>Email <span class="required">*</span></p>
+                <p>E-mail <span class="required">*</span></p>
                 <input type="email" required class="email">
                 </div>
+                <div class="login-hp">
+                    <p>No. Hp <span class="required">*</span></p>
+                    <div class="phone-input">
+                    <img src="images/indonesia-flag.png" alt="ID" class="flag">
+                    <select class="country-code">
+                        <option value="+62">+62</option>
+                        <option value="+1">+1</option>
+                        <option value="+91">+91</option>
+                        <option value="+81">+81</option>
+                    </select>
+                    <input type="text" class="phone-number" inputmode="numeric" pattern="[0-9]*" required>
+                    </div>
+                </div>
+                
                 <div class="login-password">
-                    <p name="password">Password <span class="required">*</span></p>
+                    <p name="password">Kata Sandi <span class="required">*</span></p>
+                    <input type="password" name="password" required class="password">
+                    <img src="images/hide.png" class="eye">
+                </div>
+                <div class="login-password">
+                    <p name="password">Konfirmasi Kata Sandi <span class="required">*</span></p>
                     <input type="password" name="password" required class="password">
                     <img src="images/hide.png" class="eye">
                 </div>
@@ -48,7 +71,6 @@
                         <p>Masuk dengan Google</p>
                     </div>
                 </button>
-            
         </section>
     </main>
 </body>
