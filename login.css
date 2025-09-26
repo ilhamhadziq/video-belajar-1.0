@@ -64,6 +64,7 @@ form{
   width: 100%;
 }
 .login-password{
+  margin-top: 10px;
   position: relative;
 }
 .eye{
