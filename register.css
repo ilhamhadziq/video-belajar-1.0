@@ -129,6 +129,7 @@ form{
 .forget{
   display: flex;
   align-self: flex-end;
+  margin-bottom: 20px;
 }
 .forget a{
   text-decoration: none;
@@ -166,4 +167,11 @@ form{
   height: 25px;
 }
 
+@media (max-width: 768px) {
+  header {
+     /* bayangan di bawah header */
+     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+     position: relative;
+  }
+}
 
